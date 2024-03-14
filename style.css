@@ -1,0 +1,72 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+body {
+  background-color: rgb(26, 1, 32);
+}
+
+.container {
+  /* align-items: center;
+    justify-content: center;
+    display: flex; */
+  background-color: white;
+  position: absolute;
+  padding: 20px;
+  width: 400px;
+  /* height: 40px; */
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 10px;
+}
+
+.container p {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  font-size: 20px;
+}
+
+.container input {
+  width: 100%;
+  /* padding-left: 2px; */
+  height: 50px;
+  align-items: center;
+  border-radius: 4px;
+  justify-content: center;
+  display: flex;
+  font-size: 20px;
+}
+.container button {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  width: 100%;
+  border-radius: 8px;
+  padding: 10px;
+  background-color: blue;
+  color: white;
+  font-size: 17px;
+}
+
+.container button:hover{
+    color: black;
+    transition: all .4s ease-in-out;
+    background-color: rgb(198, 159, 235);
+}
+
+.qrdiv{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 8px;
+}
+
+
